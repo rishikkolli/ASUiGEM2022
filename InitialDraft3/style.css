@@ -1,0 +1,90 @@
+body{
+    position: relative;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0;
+}
+
+.navbar-brand {
+    color: white;
+    z-index: 100;
+    margin: 0 0 0 15px;
+}
+
+.nav-link .dropdown-toggle{ 
+    color: white;
+}
+
+.dropdown-toggle {
+    color: white;
+}
+
+.dropdown-menu{
+    top: 70px !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);*/
+}
+
+.dropdown-item{
+    color: white !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.nav-item {
+    margin: auto 50px;
+}
+
+.asu-igem{
+    font-size: 30px;
+    margin-right: 450px;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+li a{
+    color: white !important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+.navbar-toggle-icon::before{
+    color: white !important;
+}
+
+.bg-image{
+    background-image: url('img/background.jpg');
+    height: 100vh;
+    /*background-size: cover;*/
+    background-position: center;
+    /*background-origin: content-box;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+    /*filter: blur(2px);*/ 
+    z-index: 1;
+}
+
+.container p{
+    color: white;
+}
+
+.cont-fluid{
+    background: linear-gradient(#2DCFFF, #714BFF);
+}
